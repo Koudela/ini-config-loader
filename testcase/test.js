@@ -50,6 +50,7 @@ init().then(() => {
 
     test.serial('absolutePath', t => {
         t.is(absolutePath('some/relative/path'), __dirname+'/some/relative/path')
+        t.is(absolutePath('/some/absolute/path'), '/some/absolute/path')
     })
 
     test.serial('onConfigChanged new config file', async t => {

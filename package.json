@@ -1,6 +1,6 @@
 {
   "name": "ini-config-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "env and config file loader",
   "main": "index.js",
   "scripts": {

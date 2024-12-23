@@ -92,7 +92,7 @@ If non such value is defined it returns `null`.
 
 ### absolutePath
 
-`absolutePath(relativePath)` prefixes a relative Path by the absolute path of the base directory.
+`absolutePath(relativePath)` prefixes a relative Path by the absolute path of the base directory. If the relative Path is an absolute Path (it starts with '/') it is not altered.
 
 ### isDevEnv
 
